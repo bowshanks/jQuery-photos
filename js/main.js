@@ -7,22 +7,14 @@
 
 $(document).ready(function() {
 
-    var photApp = $('#photo-app'),
-        imageClick = $('#get-images');
+    var photoApp = $('#photo-app'),
+        imageClick = $('#get-images'),
+        photoContainer = $('<section class="photo-main-container"></section>');
+        photoApp.append(photoContainer);
 
 
-    //todoApp.append(todoTitle);
 
 
-    //function handleAddItem() {
-    //    var inputText = todoInput.val();
-    //    if (inputText) {
-    //        var todoItem = $('<li></li>');
-    //        todoInput.val('');
-    //        todoItem.text(inputText);
-    //        todoList.append(todoItem);
-    //    }
-    //}
  function getPhotos(){
      var key = '77h7td8ewaukmcjtcwp8awwj';
      var secret = 'nEH7kxpr6jQCgpMqAVVZFgQC2M7WXwXsEt4F6DcDXgvPc';
@@ -33,17 +25,7 @@ $(document).ready(function() {
              type: "GET",
              dataType: "json",
              headers: {"Api-Key": '77h7td8ewaukmcjtcwp8awwj'},
-             success: function (data) {
-                 var responseData = data.images;
-                 console.log(responseData.length)
-
-                 for (var i = 0; i < responseData.length; i++) {
-                     console.log(responseData[i])
-
-
-
-                 }
-             },
+             success: makePhotoSection,
              error: function (msg) { alert(msg); }
 
 
@@ -53,16 +35,25 @@ $(document).ready(function() {
 
  }
 
+    function makePhotoSection(data){
+            var responseData = data.images;
+
+
+
+
+        for (var i = 0; i < responseData.length; i++) {
+                var url = responseData[i].display_sizes[0].uri;
+                //photoApp.append(url);
+            var  img = $('<img class="image">');
+                 img.attr('src', url);
+
+                photoContainer.append(img)
+
+
+        }
+    }
     imageClick.on('click', getPhotos);
 
-    //todoInput.on('keyup', function(event) {
-    //    if (event.which == 13) {
-    //        handleAddItem();
-    //    }
-    //});
-    //
-    //todoClearButton.on('click', function() {
-    //    $('li.done', todoList).remove();
-    //});
+
 
 });
