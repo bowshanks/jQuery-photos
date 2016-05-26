@@ -9,16 +9,17 @@ $(document).ready(function() {
 
     var photoApp = $('#photo-app'),
         imageClick = $('#get-images'),
-        photoContainer = $('<section class="photos-main-container"></section>');
+        photoContainer = $('<section class="photos-main-container"></section>'),
+        search = $('#searchbar');
         photoApp.append(photoContainer);
 
 
 
 
  function getPhotos(){
-     var key = '77h7td8ewaukmcjtcwp8awwj';
-     var secret = 'nEH7kxpr6jQCgpMqAVVZFgQC2M7WXwXsEt4F6DcDXgvPc';
-     var photoUrl = 'https://api.gettyimages.com/v3/search/images?fields=id,title,thumb,referral_destinations&sort_order=best';
+     var key = '77h7td8ewaukmcjtcwp8awwj',
+         searchTerm = search.val(),
+         photoUrl = 'https://api.gettyimages.com/v3/search/images?fields=id,title,thumb,referral_destinations&sort_order=best&phrase=' + searchTerm;
 
          $.ajax({
              url: photoUrl,
@@ -28,27 +29,30 @@ $(document).ready(function() {
              success: makePhotoSection,
              error: function (msg) { alert(msg); }
 
-
          });
-
  }
 
     function makePhotoSection(data){
             var responseData = data.images;
+                search.val('');
+            for (var i = 0; i < responseData.length; i++) {
+                var url = responseData[i].display_sizes[0].uri,
+                    img = $('<img class="image">').hide();
+                    img.attr('src', url);
+                    photoApp.append(img);
+                    img.show('normal');
 
 
 
-
-        for (var i = 0; i < responseData.length; i++) {
-            var url = responseData[i].display_sizes[0].uri,
-                img = $('<img class="image">');
-
-                img.attr('src', url);
-                photoApp.append(img);
-
-
-        }
+            }
     }
+
+    search.on('keyup', function(event) {
+        if (event.which == 13) {
+            getPhotos();
+        }
+    });
+
     imageClick.on('click', getPhotos);
 
 
