@@ -2,9 +2,6 @@
  * Created by Ben on 5/19/16.
  */
 
-// Here is the todo example code we went over in class
-
-
 $(document).ready(function() {
 
     var photoApp = $('#photo-app'),
@@ -26,11 +23,9 @@ $(document).ready(function() {
              url: photoUrl,
              type: "GET",
              dataType: "json",
-             headers: {"Api-Key": '77h7td8ewaukmcjtcwp8awwj'},
-             success: makePhotoSection,
-             error: function (msg) { alert(msg); }
+             headers: {"Api-Key": key}
 
-         });
+         }).done(makePhotoSection).fail( function (msg) { alert(msg); })
  }
 
     function makePhotoSection(data){
