@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     var photoApp = $('#photo-app'),
         imageClick = $('#get-images'),
-        photoContainer = $('<section class="photo-main-container"></section>');
+        photoContainer = $('<section class="photos-main-container"></section>');
         photoApp.append(photoContainer);
 
 
@@ -31,8 +31,6 @@ $(document).ready(function() {
 
          });
 
-
-
  }
 
     function makePhotoSection(data){
@@ -42,12 +40,11 @@ $(document).ready(function() {
 
 
         for (var i = 0; i < responseData.length; i++) {
-                var url = responseData[i].display_sizes[0].uri;
-                //photoApp.append(url);
-            var  img = $('<img class="image">');
-                 img.attr('src', url);
+            var url = responseData[i].display_sizes[0].uri,
+                img = $('<img class="image">');
 
-                photoContainer.append(img)
+                img.attr('src', url);
+                photoApp.append(img);
 
 
         }
