@@ -17,8 +17,9 @@ $(document).ready(function() {
 
 
  function getPhotos(){
-     var key = '77h7td8ewaukmcjtcwp8awwj',
-         searchTerm = search.val(),
+
+     var key = '77h7td8ewaukmcjtcwp8awwj', // Api Key
+         searchTerm = search.val(), // Search term from input field
          photoUrl = 'https://api.gettyimages.com/v3/search/images?fields=id,title,thumb,referral_destinations&sort_order=best&phrase=' + searchTerm;
 
          $.ajax({
@@ -41,20 +42,19 @@ $(document).ready(function() {
                     img.attr('src', url);
                     photoApp.append(img);
                     img.show('normal');
-
-
-
             }
     }
+    // Here we are watching for the return key to be pressed
 
-    search.on('keyup', function(event) {
-        if (event.which == 13) {
-            getPhotos();
-        }
-    });
+        search.on('keyup', function(event) {
+            if (event.which == 13) {
+                getPhotos();
+            }
+        });
 
-    imageClick.on('click', getPhotos);
+        // Here we are watching for a click
 
+        imageClick.on('click', getPhotos);
 
 
 });
