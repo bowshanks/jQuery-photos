@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d471937-2eca-4463-981d-4fd9a4f233d7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H2 - ALWAYS ON.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H2-girl-with-headphones.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H3- ear-buds.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H6-brown-set.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H7-silver-set.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/earbuds-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/g3-green-set.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/headphones-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ic_menu.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/main-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/css/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/fonts.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery.html" afterPath="$PROJECT_DIR$/jQuery.html" />
     </list>
     <ignored path="photo-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +40,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jQuery.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jQuery.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jQuery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8461537">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.2970297">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -44,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52389705">
+            <state vertical-scroll-proportion="0.0">
               <caret line="156" column="20" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
               <folding />
             </state>
@@ -63,8 +79,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/styles/views/home.css" />
-        <option value="$PROJECT_DIR$/jQuery.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/jQuery.html" />
       </list>
     </option>
   </component>
@@ -117,6 +133,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="photo-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="photo-app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,7 +273,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464324681727</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="minor fix">
+      <created>1464324796596</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1464324796597</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -282,7 +318,8 @@
     <MESSAGE value="added a pure javascript way of doing the same thing as jQuery" />
     <MESSAGE value="update to XMLHttpRequest instead of $ajax" />
     <MESSAGE value="Fixed unsplash so it works now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed unsplash so it works now" />
+    <MESSAGE value="minor fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -297,18 +334,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jQuery.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8461537">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="156" column="20" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/jQuery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52389705">
-          <caret line="156" column="20" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.2970297">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
         </state>
       </provider>
