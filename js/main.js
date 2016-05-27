@@ -3,14 +3,6 @@
  */
 $(document).ready(function() {
 
-    //console.log(window.localStorage);
-
-    // Make a modal for when you click on a image.
-    // Add a more button, to show more photos
-    // Make a favorites option that will put your favorite photos into a bucket, save in local storage
-    // Black diamond when you search for new photos animate the old photos out and animate the new photos in
-
-
 
     //   var photoApp = $('#photo-app'),
     //       imageClick = $('#get-images'),
@@ -162,16 +154,12 @@ $(document).ready(function() {
                 var url = item.urls.regular,
                     img = document.createElement('img');
                     img.setAttribute('src', url);
+                    img.classList.add('image');
                     photoApp.appendChild(img);
-
 
             });
 
-
-
         }
-
-
 
     })();
 
