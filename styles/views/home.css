@@ -19,5 +19,33 @@
 
 .image {
     width: 200px;
+    height:200px;
     margin-bottom: 30px;
+}
+
+.dropdown {
+    width: 100%;
+    background: #ccc;
+    text-align: center;
+    height: 0;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+
+
+.dropdown li {
+    color: #fff;
+}
+
+.openMenu {
+    cursor: pointer;
+}
+
+.showMenu {
+    height:50vh;
+    opacity:1;
+
+}
+.disabled {
+    background: #ccc;
 }
