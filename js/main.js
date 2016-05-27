@@ -12,6 +12,7 @@ $(document).ready(function() {
     // Black diamond when you search for new photos animate the old photos out and animate the new photos in
 
 
+
  //   var photoApp = $('#photo-app'),
  //       imageClick = $('#get-images'),
  //       photoContainer = $('<section class="photos-main-container"></section>'),
@@ -181,7 +182,6 @@ $(document).ready(function() {
         })();
 
 });
-
 
 //function getPhotos() {
 //    console.log('hey');
