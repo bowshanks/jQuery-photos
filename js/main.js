@@ -3,6 +3,7 @@
  */
 $(document).ready(function() {
 
+    /// jQuery EXAMPLE you'll need to comment out the pure javascript section below and uncomment the jQuery section
 
     //   var photoApp = $('#photo-app'),
     //       imageClick = $('#get-images'),
@@ -21,15 +22,12 @@ $(document).ready(function() {
     //
     //   function getPhotos(){
     //
-    //    var key = '77h7td8ewaukmcjtcwp8awwj', // Api Key
-    //        searchTerm = search.val(), // Search term from input field
-    //        photoUrl = 'https://api.gettyimages.com/v3/search/images?fields=id,title,thumb,referral_destinations&sort_order=best&phrase=' + searchTerm;
-    //
+    //    var unsplash = 'https://api.unsplash.com/photos/?client_id=4f9beca0fae78f820221cd2d69431a078fa02304cc3c669efd06b644c53b59eb';
+
     //        $.ajax({
-    //            url: photoUrl,
+    //            url: unsplash,
     //            type: "GET",
-    //            dataType: "json",
-    //            headers: {"Api-Key": key}
+    //            dataType: "json"
     //
     //        }).done(makePhotoSection).fail( function (msg) { alert(msg); })
     //}
