@@ -139,41 +139,43 @@ $(document).ready(function() {
             });
 
 
-            function getPhotos(){
+            //function getPhotos(){
+            //
+            //        var unsplash = 'https://api.unsplash.com/photos/?client_id=4f9beca0fae78f820221cd2d69431a078fa02304cc3c669efd06b644c53b59eb';
+            //
+            //            $.ajax({
+            //                url: unsplash,
+            //                type: "GET",
+            //                dataType: "json"
+            //
+            //
+            //            }).done(makePhotoSection).fail( function (msg) { alert(msg); });
+            //     }
 
-                    var unsplash = 'https://api.unsplash.com/photos/?client_id=4f9beca0fae78f820221cd2d69431a078fa02304cc3c669efd06b644c53b59eb';
-
-                        $.ajax({
-                            url: unsplash,
-                            type: "GET",
-                            dataType: "json"
+     function getPhotos() {
+        var unsplash = 'https://api.unsplash.com/photos/?client_id=4f9beca0fae78f820221cd2d69431a078fa02304cc3c669efd06b644c53b59eb';
 
 
-                        }).done(makePhotoSection).fail( function (msg) { alert(msg); });
-                 }
+        var xmlHttp = new XMLHttpRequest();
+         xmlHttp.responseType = "json";
+        xmlHttp.open("GET", unsplash);
+        xmlHttp.send();
 
+
+         xmlHttp.onreadystatechange = function() {
+             if(xmlHttp.readyState == 4 && xmlHttp.status == 200)
+             {
+                return makePhotoSection(xmlHttp.response);
+             }
+         }
+
+
+}
                 function makePhotoSection(data){
-                    var responseData = data[0].categories[0].links.photos,
-                        apiId = "client_id=4f9beca0fae78f820221cd2d69431a078fa02304cc3c669efd06b644c53b59eb";
+                    var responseData = data;
 
+                     console.log(responseData)
 
-                    $.ajax({
-                        url: responseData + '?' + apiId ,
-                        type: "GET",
-                        dataType: "json"
-
-                    }).done(function(data){
-                        data.map(function(item){
-                            var url =  item.urls.full,
-                                    img = document.createElement('img');
-                                    img.className = 'image';
-                                    img.setAttribute('src', url);
-                                    photoApp.appendChild(img);
-
-
-                        });
-
-                    }).fail( function (msg) { alert(msg); });
 
                 }
 
@@ -183,17 +185,4 @@ $(document).ready(function() {
 
 });
 
-//function getPhotos() {
-//    console.log('hey');
-//    var key = '77h7td8ewaukmcjtcwp8awwj', // Api Key
-//        searchTerm = search.value, // Search term from input field
-//        unsplash = 'https://api.unsplash.com/photos/?client_id=4f9beca0fae78f820221cd2d69431a078fa02304cc3c669efd06b644c53b59eb';
-//
-//
-//    var xmlHttp = new XMLHttpRequest();
-//    xmlHttp.open("GET", unsplash, false);
-//    xmlHttp.send(null);
-//
-//    return  makePhotoSection(xmlHttp.responseText);;
-//
-//}
+
