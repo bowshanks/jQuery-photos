@@ -2,24 +2,215 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d471937-2eca-4463-981d-4fd9a4f233d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H2 - ALWAYS ON.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H2-girl-with-headphones.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H3- ear-buds.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H6-brown-set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/H7-silver-set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/earbuds-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/g3-green-set.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/headphones-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ic_menu.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/main-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/font-awesome-4.2.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/fonts/fonts.css" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--acne-guy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--apple-devices.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--backgrounded-macbook.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--black-bg-man--cropped.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--black-bg-man.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--black-headphones.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--black-pair-watches.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--black-watches.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--black-xiro.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--blue-mag.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--blue-mountains.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--brainstorm.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--bright-office.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--bright-room.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--bubbles.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--carrot-on-table.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--city-gray.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--city-lights.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--golden-watches.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--hands-people-woman-working.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--headphones-girl.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--headphones-man.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--headphones-white.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--keyboard-machine.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--magic-mouse.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--mastery.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--mountains-ocean.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--mountains-white.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--new_york.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--night-city-lights.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--night-city.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--night_track.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--pink-headphones.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--ride.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--roller-skaters.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--sailor.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--skaters--blue-overlay.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--skaters-bright.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--skaters-sunset.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--skaters.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--soft-chair.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--startup_guy.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--unika.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--veg_food.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--watches-black.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--wave.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--white-watches.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bg/bg--xiro.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--airbnb-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--amd-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--app-mockup-7-tasks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--app-mockup-fitness-graph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--case-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--casio-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--dave.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--doe.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--dropbox-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--dustin.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--fast-company-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--front-phones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--front-single-mockup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--hovering-phones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--intel-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--ipad-pro-space-gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--ive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--keyboard-image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--macbook-gold--old.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--macbook-gold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--musk.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--nike-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--snow-mountain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--tobias.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--two-iphones--invert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--two-iphones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--wired-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/etc/button--app-store.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/etc/button--google-play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/etc/logo--circle--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/etc/logo--circle--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/etc/logo--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--apple--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--apple--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--black--down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--circle--black--left--hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--circle--black--left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--circle--black--right--hover.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--circle--black--right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--circle--white--left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--circle--white--right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--right--white--small.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow--white--down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow-down--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--arrow-down--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--behance--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--behance--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--box.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--bubbles.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--burger--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--burger--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--cart--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--cart--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--case.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--code-block--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--code-block--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--code-block.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--copy--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--copy--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--cross--big--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--cross--big--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--cross--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--cross--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--dribbble--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--dribbble--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--dropdown_arrow_down--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--dropdown_arrow_down.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--facebook--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--facebook--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--g_plus--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--g_plus--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--gear--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--gear--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--gear.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--google_font--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--google_font--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--google_font.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--heart--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--heart--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--heart.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--icon-play.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--infinity--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--infinity--gray copy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--infinity--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--infinity.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--leaf--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--leaf--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--leaf.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--linkedin--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--linkedin--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--magnifier--tall--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--magnifier--tall--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--magnifier--tall.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--magnifier.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--phone-call.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--pinterest--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--pinterest--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--play-box--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--play-box--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--play-box.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--quotation-marks.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--rocket--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--rocket--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--rocket.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--small-arrow--black--left.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--small-arrow--black--right.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--speedometer--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--speedometer--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--speedometer.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--stack--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--stack--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--stack.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--star--blue--solid.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--star--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--star--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--star.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--tick--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--tick--green.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--trophy--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--trophy--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--trophy.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--tumblr--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--tumblr--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--tune--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--tune--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--tune.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--twitter--black.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--twitter--white.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--zip--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--zip--circle--blue.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--zip--circle--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--zip--circle.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--zip--gray.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/i--zip.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--AMD.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--airbnb.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--behance.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--dropbox.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pictures/pic--intel.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/styles/base/temp.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/styles/base/normalize.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jQuery.html" afterPath="$PROJECT_DIR$/jQuery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/views/home.css" afterPath="$PROJECT_DIR$/styles/views/home.css" />
     </list>
     <ignored path="photo-app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,13 +230,15 @@
     <favorites_list name="photo-app" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="jQuery.html" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="jQuery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jQuery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2970297">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-              <folding />
+            <state vertical-scroll-proportion="-6.418182">
+              <caret line="53" column="122" selection-start-line="53" selection-start-column="122" selection-end-line="53" selection-end-column="122" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,18 +246,18 @@
       <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/views/home.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.5">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state vertical-scroll-proportion="-9.181818">
+              <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="156" column="20" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
+            <state vertical-scroll-proportion="5.6959314">
+              <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -72,15 +265,23 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/styles/base/temp.css" />
         <option value="$PROJECT_DIR$/styles/views/home.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/jQuery.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -90,8 +291,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -118,6 +320,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -132,7 +335,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="photo-app" />
+              <option name="myItemId" value="jQuery-photos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -142,26 +345,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="photo-app" />
+              <option name="myItemId" value="jQuery-photos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jQuery-headphones" />
+    <property name="last_opened_file_path" value="$USER_HOME$/DevMountain-corp/DevMountain-Email-Temlates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="FullScreen" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -187,6 +394,11 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -283,26 +495,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="830" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15208334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2701389" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31406045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -326,9 +538,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jQuery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/styles/views/home.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.5">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding />
         </state>
@@ -337,15 +559,199 @@
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="156" column="20" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
+          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/base/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="6.890909">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/base/temp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.418181">
+          <caret line="13017" column="30" selection-start-line="13017" selection-start-column="30" selection-end-line="13017" selection-end-column="30" />
+          <folding>
+            <element signature="e#35257#35692#2" expanded="true" />
+            <element signature="e#36300#36775#2" expanded="true" />
+            <element signature="e#37370#37901#2" expanded="true" />
+            <element signature="e#67727#68534#2" expanded="true" />
+            <element signature="e#68641#69356#2" expanded="true" />
+            <element signature="e#69535#70270#2" expanded="true" />
+            <element signature="e#70696#70931#1" expanded="true" />
+            <element signature="e#140564#141779#1" expanded="true" />
+            <element signature="e#141888#143103#1" expanded="true" />
+            <element signature="e#143740#144955#1" expanded="true" />
+            <element signature="e#145037#146252#1" expanded="true" />
+            <element signature="e#148849#149704#1" expanded="true" />
+            <element signature="e#149794#150649#1" expanded="true" />
+            <element signature="e#150994#151905#1" expanded="true" />
+            <element signature="e#155208#156595#1" expanded="true" />
+            <element signature="e#156681#158068#1" expanded="true" />
+            <element signature="e#158281#159376#1" expanded="true" />
+            <element signature="e#159462#160557#1" expanded="true" />
+            <element signature="e#160762#162381#1" expanded="true" />
+            <element signature="e#162466#164085#1" expanded="true" />
+            <element signature="e#164290#165513#1" expanded="true" />
+            <element signature="e#165597#166816#1" expanded="true" />
+            <element signature="e#167032#168483#1" expanded="true" />
+            <element signature="e#168570#170021#1" expanded="true" />
+            <element signature="e#170234#171809#1" expanded="true" />
+            <element signature="e#171896#173471#1" expanded="true" />
+            <element signature="e#173681#176872#1" expanded="true" />
+            <element signature="e#176958#179969#1" expanded="true" />
+            <element signature="e#180183#184814#1" expanded="true" />
+            <element signature="e#184901#189352#1" expanded="true" />
+            <element signature="e#191756#193563#1" expanded="true" />
+            <element signature="e#195165#198736#1" expanded="true" />
+            <element signature="e#207743#209550#1" expanded="true" />
+            <element signature="e#213332#213879#1" expanded="true" />
+            <element signature="e#214133#214680#1" expanded="true" />
+            <element signature="e#215164#216107#1" expanded="true" />
+            <element signature="e#216193#217136#1" expanded="true" />
+            <element signature="e#217228#218771#1" expanded="true" />
+            <element signature="e#218870#220677#1" expanded="true" />
+            <element signature="e#221702#222985#1" expanded="true" />
+            <element signature="e#223847#225446#1" expanded="true" />
+            <element signature="e#225538#227145#1" expanded="true" />
+            <element signature="e#227229#228836#1" expanded="true" />
+            <element signature="e#228919#230518#1" expanded="true" />
+            <element signature="e#244770#245981#1" expanded="true" />
+            <element signature="e#251459#253134#1" expanded="true" />
+            <element signature="e#253235#254910#1" expanded="true" />
+            <element signature="e#255005#257184#1" expanded="true" />
+            <element signature="e#257285#259464#1" expanded="true" />
+            <element signature="e#259559#262214#1" expanded="true" />
+            <element signature="e#262315#264970#1" expanded="true" />
+            <element signature="e#265064#266627#1" expanded="true" />
+            <element signature="e#266727#268290#1" expanded="true" />
+            <element signature="e#268391#270434#1" expanded="true" />
+            <element signature="e#270541#272584#1" expanded="true" />
+            <element signature="e#272679#276398#1" expanded="true" />
+            <element signature="e#276499#280218#1" expanded="true" />
+            <element signature="e#280315#282410#1" expanded="true" />
+            <element signature="e#282513#284608#1" expanded="true" />
+            <element signature="e#284710#288865#1" expanded="true" />
+            <element signature="e#288973#293128#1" expanded="true" />
+            <element signature="e#293225#296316#1" expanded="true" />
+            <element signature="e#296419#299510#1" expanded="true" />
+            <element signature="e#299610#301317#1" expanded="true" />
+            <element signature="e#301423#303130#1" expanded="true" />
+            <element signature="e#303226#305885#1" expanded="true" />
+            <element signature="e#305987#308646#1" expanded="true" />
+            <element signature="e#308742#311045#1" expanded="true" />
+            <element signature="e#311147#313450#1" expanded="true" />
+            <element signature="e#313545#315320#1" expanded="true" />
+            <element signature="e#315421#317196#1" expanded="true" />
+            <element signature="e#317298#318569#1" expanded="true" />
+            <element signature="e#318677#319948#1" expanded="true" />
+            <element signature="e#320043#325914#1" expanded="true" />
+            <element signature="e#326015#331886#1" expanded="true" />
+            <element signature="e#331981#335876#1" expanded="true" />
+            <element signature="e#335977#339872#1" expanded="true" />
+            <element signature="e#339971#344446#1" expanded="true" />
+            <element signature="e#344551#349026#1" expanded="true" />
+            <element signature="e#369602#371177#1" expanded="true" />
+            <element signature="e#375570#376797#1" expanded="true" />
+            <element signature="e#376884#378127#1" expanded="true" />
+            <element signature="e#379566#380793#1" expanded="true" />
+            <element signature="e#380880#382123#1" expanded="true" />
+            <element signature="e#386038#387281#1" expanded="true" />
+            <element signature="e#387401#388604#1" expanded="true" />
+            <element signature="e#389028#390267#1" expanded="true" />
+            <element signature="e#390388#391479#1" expanded="true" />
+            <element signature="e#394818#396045#1" expanded="true" />
+            <element signature="e#396132#397375#1" expanded="true" />
+            <element signature="e#400035#401710#1" expanded="true" />
+            <element signature="e#401797#403472#1" expanded="true" />
+            <element signature="e#403560#405739#1" expanded="true" />
+            <element signature="e#405826#408005#1" expanded="true" />
+            <element signature="e#408093#410748#1" expanded="true" />
+            <element signature="e#410835#413490#1" expanded="true" />
+            <element signature="e#413577#415140#1" expanded="true" />
+            <element signature="e#415226#416789#1" expanded="true" />
+            <element signature="e#416884#418927#1" expanded="true" />
+            <element signature="e#419021#421064#1" expanded="true" />
+            <element signature="e#421152#424871#1" expanded="true" />
+            <element signature="e#424958#428677#1" expanded="true" />
+            <element signature="e#428767#430862#1" expanded="true" />
+            <element signature="e#430951#433046#1" expanded="true" />
+            <element signature="e#433141#437296#1" expanded="true" />
+            <element signature="e#437390#441545#1" expanded="true" />
+            <element signature="e#441635#444726#1" expanded="true" />
+            <element signature="e#444815#447906#1" expanded="true" />
+            <element signature="e#447999#449706#1" expanded="true" />
+            <element signature="e#449798#451505#1" expanded="true" />
+            <element signature="e#451594#454253#1" expanded="true" />
+            <element signature="e#454341#457000#1" expanded="true" />
+            <element signature="e#457089#459392#1" expanded="true" />
+            <element signature="e#459480#461783#1" expanded="true" />
+            <element signature="e#461871#463646#1" expanded="true" />
+            <element signature="e#463733#465508#1" expanded="true" />
+            <element signature="e#465603#466874#1" expanded="true" />
+            <element signature="e#466968#468239#1" expanded="true" />
+            <element signature="e#468327#474198#1" expanded="true" />
+            <element signature="e#474285#480156#1" expanded="true" />
+            <element signature="e#483723#485398#1" expanded="true" />
+            <element signature="e#485493#487672#1" expanded="true" />
+            <element signature="e#487767#490422#1" expanded="true" />
+            <element signature="e#490516#492079#1" expanded="true" />
+            <element signature="e#492180#494223#1" expanded="true" />
+            <element signature="e#494318#498037#1" expanded="true" />
+            <element signature="e#498134#500229#1" expanded="true" />
+            <element signature="e#500331#504486#1" expanded="true" />
+            <element signature="e#504583#507674#1" expanded="true" />
+            <element signature="e#507774#509481#1" expanded="true" />
+            <element signature="e#509577#512236#1" expanded="true" />
+            <element signature="e#512332#514635#1" expanded="true" />
+            <element signature="e#514730#516505#1" expanded="true" />
+            <element signature="e#516607#517878#1" expanded="true" />
+            <element signature="e#517973#521868#1" expanded="true" />
+            <element signature="e#521967#526442#1" expanded="true" />
+            <element signature="e#552944#554187#1" expanded="true" />
+            <element signature="e#554299#555502#1" expanded="true" />
+            <element signature="e#555910#557149#1" expanded="true" />
+            <element signature="e#557262#558353#1" expanded="true" />
+            <element signature="e#568604#569767#1" expanded="true" />
+            <element signature="e#569869#571032#1" expanded="true" />
+            <element signature="e#579760#581423#1" expanded="true" />
+            <element signature="e#581541#583128#1" expanded="true" />
+            <element signature="e#583245#585068#1" expanded="true" />
+            <element signature="e#607147#608390#1" expanded="true" />
+            <element signature="e#608507#609710#1" expanded="true" />
+            <element signature="e#610178#611417#1" expanded="true" />
+            <element signature="e#611535#612626#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/views/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.181818">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jQuery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2970297">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state vertical-scroll-proportion="-6.418182">
+          <caret line="53" column="122" selection-start-line="53" selection-start-column="122" selection-end-line="53" selection-end-column="122" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.6959314">
+          <caret line="140" column="13" selection-start-line="140" selection-start-column="13" selection-end-line="140" selection-end-column="13" />
           <folding />
         </state>
       </provider>

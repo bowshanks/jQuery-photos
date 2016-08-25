@@ -7,43 +7,81 @@
     <title> jQuery Photo App </title>
 
     <!-- BASE CSS -->
-    <link rel="stylesheet" href="styles/base/normalize.css">
-    <link rel="stylesheet" href="styles/base/reset.css">
+    <link rel="stylesheet" href="./styles/base/reset.css">
 
     <!-- STYLES -->
-    <link rel="stylesheet" href="styles/views/home.css">
+    <link rel="stylesheet" href="./styles/views/home.css">
+    <link rel="stylesheet" href="./styles/base/temp.css">
 
 </head>
 <body>
-<main>
-    <header class="main-header">
-        <h1 id="openMenu">CLICK ME</h1>
-        <input type="text" placeholder="Search Photos" id="searchbar">
-        <button id="get-images">get photos</button>
+<main role="main">
+
+<div style="background-image: url(img/bg/bg--startup_guy.jpg)" class="cover cover--09 js-cover">
+    <!-- == START OF HEADER ==-->
+    <nav class="header header--16">
+        <div class="container header__container">
+            <div class="header__left_box"><a href="#" title="Home" class="header__logo_box"><img src="img/etc/logo--circle--white.svg" alt="DevMountain Ballin Out " class="header__logo_img"></a></div>
+            <div class="header__right_box">
+                <button type="button" data-menu-index="02--desktop" class="header__burger_button js-open-menu"></button>
+            </div>
+        </div>
+    </nav>
+    <!-- == END OF HEADER  ==-->
+    <div class="container">
+        <div class="cover__content_box cover__content_box--09">
+            <h2 class="cover__title cover__title--09"><span class="cover__title_text cover__title_text--09">Pleasure in the job puts perfection in the work.</span></h2>
+            <div class="cover__description_box--09"><span class="cover__description_text--09">For the things we have to learn before we can do them, we learn by doing them.</span></div>
+            <div class="cover__button_box--09"><a href="#" class="cover__button--09 button button--blue button--blue-shadow button--round button--arrow-down js-scroll-fullscreen"></a></div>
+        </div>
+    </div>
+</div>
+
+    <nav data-menu-index="02--desktop" style="background-color: #242526" class="menu menu--02--desktop js-menu">
+        <div class="menu__container--02--desktop">
+            <ul class="menu__list--02--desktop">
+                <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">About</a></li>
+                <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Products</a></li>
+                <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Designers</a></li>
+                <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">News</a></li>
+                <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Store</a></li>
+                <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Collections</a></li>
+                <li class="menu__item--02--desktop"><a href="#" class="menu__link--02--desktop">Contact</a></li>
+            </ul>
+        </div>
+        <div class="container menu__footer--02--desktop">
+            <div class="menu__footer menu__footer--02--desktop">
+                <div class="menu__footer_left_box--02--desktop"><span class="menu__footer_text--02--desktop">Made by Ben C</span></div>
+                <div class="menu__footer_right_box--02--desktop">
+                    <ul class="social menu__footer_social--02--desktop">
+                        <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Twitter!" class="social__link social__link--twitter"></a></li>
+                        <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Facebook!" class="social__link social__link--facebook"></a></li>
+                        <li class="social__item social__item--left_margin"><a href="#" title="Say hello in G+!" class="social__link social__link--g_plus"></a></li>
+                        <li class="social__item social__item--left_margin"><a href="#" title="Say hello in Tumblr!" class="social__link social__link--tumblr"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
 
-        <!--<nav class="dropdown">-->
-            <!--<ul>-->
-                <!--<li>Link</li>-->
-                <!--<li>Link</li>-->
-                <!--<li>Link</li>-->
-                <!--<li>Link</li>-->
-                <!--<li>Link</li>-->
-            <!--</ul>-->
-        <!--</nav>-->
-    </header>
 
-
-    <section id="photo-app" class="photos-container">
+    <!--<section class="menu-container">-->
+        <!--<div class="menu-section"></div>-->
+        <!--<div class="menu-section"></div>-->
+        <!--<div class="menu-section"></div>-->
+        <!--<div class="menu-section"></div>-->
 
 
 
+    <!--</section>-->
 
 
-
-    </section>
 
 </main>
+
+
+
 
 <!-- Add jQuery -->
 
@@ -55,3 +93,28 @@
 
 </body>
 </html>
+
+
+
+<!--<main>-->
+    <!--<header class="main-header">-->
+        <!--<h1 id="openMenu">Menu</h1>-->
+        <!--<input type="text" placeholder="Search Photos" id="searchbar">-->
+        <!--<button id="get-images" class="main-cta">get photos</button>-->
+
+
+        <!--&lt;!&ndash;<nav class="dropdown">&ndash;&gt;-->
+        <!--&lt;!&ndash;<ul>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li>Link</li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li>Link</li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li>Link</li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li>Link</li>&ndash;&gt;-->
+        <!--&lt;!&ndash;<li>Link</li>&ndash;&gt;-->
+        <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+        <!--&lt;!&ndash;</nav>&ndash;&gt;-->
+    <!--</header>-->
+
+
+    <!--<section id="photo-app" class="photos-container"></section>-->
+
+<!--</main>-->

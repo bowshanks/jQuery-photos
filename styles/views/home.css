@@ -1,5 +1,6 @@
 .main-header {
     display: flex;
+    flex-direction: column;
     height:50px;
     width: 100%;
     justify-content: center;
@@ -18,9 +19,17 @@
 }
 
 .image {
-    width: 200px;
+    width: 50%;
     height:200px;
     margin-bottom: 30px;
+}
+
+@media(min-width: 750px) {
+    .image {
+        width: 200px;
+        height:200px;
+        margin-bottom: 30px;
+    }
 }
 
 .dropdown {
@@ -48,4 +57,21 @@
 }
 .disabled {
     background: #ccc;
+}
+
+.menu-container {
+    height:100vh;
+    width:100%;
+    background: #fff;
+    position: absolute;
+    top:0;
+    z-index: 3;
+    display: flex;
+}
+
+.menu-section {
+    width:25%;
+    height:100vh;
+    background: #000;
+    margin-right:10px;;
 }
